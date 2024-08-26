@@ -1,0 +1,84 @@
+/* Basic reset */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Game container styling */
+.game-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #000;
+    color: #fff;
+    min-height: 100vh;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 2em;
+}
+
+/* Game board styling */
+#game-board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    gap: 5px;
+    margin-bottom: 20px;
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    background-color: #333;
+    border: 3px solid #ffcc00;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2em;
+    cursor: pointer;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.cell:hover {
+    background-color: #444;
+    border-color: #ffcc00;
+}
+
+.cell.x {
+    color: #ff0000;
+}
+
+.cell.o {
+    color: #00ff00;
+}
+
+/* Reset button styling */
+#reset-btn {
+    padding: 10px 20px;
+    background-color: #ffcc00;
+    border: none;
+    color: #000;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#reset-btn:hover {
+    background-color: #ff9900;
+}
+
+/* Status and celebration styling */
+#status, #celebration {
+    margin-top: 20px;
+    font-size: 1.2em;
+}
+
+#celebration {
+    color: #ffcc00;
+    font-size: 1.5em;
+    display: none;
+}
