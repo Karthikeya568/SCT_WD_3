@@ -1,4 +1,4 @@
-# SCT_WD_Task3: Tic-Tac-Toi Game
+# SCT_WD_3: Tic-Tac-Toi Game
 
 This project is a responsive and interactive Tic-Tac-Toe game built using HTML, CSS, and JavaScript. It features custom sound effects for clicks, resets, and winning events, enhancing the user experience. The game was developed as part of the SkillCraft Technology Web Development Internship (Task 3).
 
@@ -34,4 +34,4 @@ This project is a responsive and interactive Tic-Tac-Toe game built using HTML, 
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/your-username/SCT_WD_Task3.git
+   git clone https://github.com/your-username/SCT_WD_3.git
